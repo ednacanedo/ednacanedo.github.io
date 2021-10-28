@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
   }
 
   header ul li {
@@ -41,11 +42,6 @@ body {
     border-radius: 8px;
   }
 
-  .img-logo{
-    width: 150px;
-    height: 150px;
-  }
-
   .publications{
     display: flex;
     justify-content: center;
@@ -63,7 +59,112 @@ body {
     list-style-type: none;
   }
 
-.list-contact {
+  .list-contact {
     list-style-type:none;
   }
-  
+
+  footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 425px) {
+    .colunaEdna{
+      justify-content: center;
+      display: flex;
+    }
+
+    .img-edna{
+      width: 330px;
+      height: 330px;
+    }
+
+    .img-logo{
+      width: 50px;
+      height: 50px;
+    }
+
+    .map-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    iframe{
+      justify-content: center;
+      height: 280px; 
+      width: max-content;
+    }
+
+  }
+
+  @media (min-width: 768px) {
+
+    .colunaEdna{
+      justify-content: center;
+      display: flex;
+    }
+
+    .img-edna{
+      width: 330px;
+      height: 330px;
+    }
+
+    .img-logo{
+      width: 50px;
+      height: 50px;
+    }
+
+    .map-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    iframe{
+      justify-content: center;
+      height: 280px; 
+      width: max-content;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .colunaEdna{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+
+    .biography p {
+      margin-right: 8px;
+    }
+
+    .biography2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .img-edna{
+      width: 440px;
+      height: 440px;
+    }
+
+    .img-logo{
+      width: 50px;
+      height: 50px;
+    }
+
+    .map-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    iframe{
+      justify-content: center;
+      height: 280px; 
+      width: max-content;
+    }
+  }
